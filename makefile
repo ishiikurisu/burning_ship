@@ -3,7 +3,7 @@ default: run
 
 .PHONY: build
 build:
-	gcc src/main.c -Wall -O3 -o main.exe
+	gcc src/main.c -Wall -O3 -lm -o main.exe
 
 .PHONY: run
 run: build
